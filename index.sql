@@ -1,3 +1,4 @@
+
 SELECT * e.apellido Apellido,d.nombre NombreDepartamento ;
 FROM empleado.e,
 inner join departamento.d,
