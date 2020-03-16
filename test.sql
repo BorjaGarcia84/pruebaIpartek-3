@@ -1,5 +1,5 @@
 
-SELECT apellidoE
-FROM EMPLEADO E, DEPARTAMENTO D
-WHERE E.id_departamento = D.id
-ORDER BY apellido
+select empleado.nombre, departamento.nombre
+from empleado
+inner join departamento on emplado.id_departamento = departamento.id
+order by empleado.nombre
